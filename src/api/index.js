@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL_SERV = "http://localhost:3004";
+const URL_SERV = "https://theakhbarserver.herokuapp.com/";
 
 export const getPosts = async(prevState,page=1,order="asc",limit="10") => {
     try {
