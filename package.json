@@ -32,7 +32,7 @@
     "json:server":"json-server --watch db.json --port 3004",
     "client":"npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently  \"npm run server\"  \"npm run client\" "
+    "dev": "concurrently  \"npm run json:server\"  \"npm run client\" "
   },
   "eslintConfig": {
     "extends": [
